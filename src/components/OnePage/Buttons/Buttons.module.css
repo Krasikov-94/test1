@@ -1,0 +1,92 @@
+.wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperPhone {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+.left button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 100px;
+  background-color: #3a4574;
+  color: white;
+  border: none;
+}
+.leftPhone button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 100px;
+  background-color: #3a4574;
+  color: white;
+  border: none;
+}
+
+.left :hover {
+  background-color: #6a79c9;
+  scale: 1.1;
+  transition: 0.7s;
+}
+.leftPhone :hover {
+  background-color: #6a79c9;
+  scale: 1.1;
+  transition: 0.7s;
+}
+
+.right {
+  display: flex;
+  margin: 0 -5px;
+}
+.right button {
+  width: 48px;
+  height: 48px;
+  flex: 1 1 auto;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.rightPhone button {
+  width: 48px;
+  height: 48px;
+  flex: 1 1 auto;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.rightPhone {
+  transition: 1s;
+}
+.rightPhone :hover {
+  background-color: #6a79c9;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.right {
+  transition: 1s;
+}
+.right :hover {
+  background-color: #6a79c9;
+  scale: 1.1;
+  transition: 0.5s;
+}

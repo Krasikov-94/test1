@@ -1,0 +1,13 @@
+.wrapperGamb {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.slider {
+  color: white;
+}
+.line {
+  border: 1px solid #e7e7e7;
+  max-width: 469px;
+  margin-bottom: 20px;
+}

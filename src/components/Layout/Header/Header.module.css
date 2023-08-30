@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 20px;
+}
+.wrapperPhone {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.logoPhone {
+  width: 100px;
+  margin: 20px 0 20px 0;
+}
+.wrapper a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.wrapper a :last-child {
+  padding-right: 0;
+}
+.num {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.menuFlex {
+  display: flex;
+}
+.num img {
+  padding-right: 11px;
+}
+.menu a {
+  display: inline-block;
+}
+.scale {
+  padding: 0 10px 0 10px;
+  transition: 0.6s;
+}
+.scale:hover {
+  transform: scale(1.3);
+}

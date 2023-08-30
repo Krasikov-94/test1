@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1169px;
+}
+.left {
+  position: relative;
+}
+.left :first-child {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.left :last-child {
+  padding-top: 14px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.right {
+  padding-top: 109px;
+}
+.line {
+  position: absolute;
+  right: 440px;
+  border: 1px solid #d3b47f;
+  width: 108px;
+}
+.general {
+  display: grid;
+  justify-items: center;
+}
+@media screen and (max-width: 440px) {
+  .wrapper img {
+    width: 177px;
+  }
+  .left :first-child {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  .left :last-child {
+    padding-top: 14px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+}

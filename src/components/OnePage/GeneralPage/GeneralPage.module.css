@@ -1,0 +1,34 @@
+.wrapper {
+  max-width: 100%;
+  height: 801px;
+  background-image: url('../../../assets/wrapper.png');
+  display: grid;
+  justify-content: center;
+}
+.mar {
+  display: grid;
+  justify-content: center;
+  max-width: 1169px;
+}
+.marPhone {
+  margin: 0;
+}
+.wrapperPhone {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 150px;
+  background-image: url('../../../assets/wrapper.png');
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 440px) {
+  .main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}

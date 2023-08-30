@@ -1,0 +1,32 @@
+.wrSwiper {
+  height: 908px;
+  position: relative;
+}
+.topSwiper {
+  height: 606px;
+  background-color: #3a4574;
+}
+.btn1 {
+  background-color: transparent;
+  border: none;
+}
+.top {
+  margin: 0 376px 0 376px;
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.title :first-child {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+.title :last-child {
+  font-size: 16px;
+  color: white;
+}
+
+.sw img {
+  padding: 0 200px 0 100px;
+}
